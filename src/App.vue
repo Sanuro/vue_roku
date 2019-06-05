@@ -1,8 +1,14 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img id="rokuPNG" alt="Vue logo" src="./assets/roku.png">
+    <HelloWorld msg="Welcome, Jae"/>
+
+
   </div>
+
+  
+
+  
 </template>
 
 <script>
@@ -14,9 +20,14 @@ export default {
     HelloWorld
   }
 }
+
+
 </script>
 
 <style>
+body{
+  background-color: #6D3998;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,5 +35,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-color: #eeeeee;
+  padding: 3%;
+  
 }
+#rokuPNG{
+  width: 20%
+}
+
 </style>
